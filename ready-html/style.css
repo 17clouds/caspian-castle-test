@@ -41,7 +41,7 @@ body {
   justify-content: center;
 }
 .logo{
-  background: url(assets/img/logo.png);
+  background: url(./assets/img/logo.png);
   display: block;
   width: 107px;
   height: 108px;
@@ -80,7 +80,7 @@ body {
 
 .hero {
   height: 932px;
-  background: url(/assets/img/bg-hero.png);
+  background: url(./assets/img/bg-hero.png);
   /*background-repeat: no-repeat; */
   /*background-size: cover;*/
   padding: 264px 298px 0px 257px;
@@ -93,9 +93,6 @@ body {
   height: 688px;
 }
 .hero-img {
-  /*background: url(/assets/img/hero.png);*/
-  background-repeat: no-repeat;
-  background-size: cover;
   width: calc(var(--index) / 0.01);
   display: block;
   margin-right: 80px;
@@ -136,7 +133,7 @@ body {
 
 .methods {
   height: 1190px;
-  background:url(/assets/img/bg-methods.png);
+  background:url(./assets/img/bg-methods.png);
   background-size: cover;
 }
 .method-title {
@@ -178,7 +175,7 @@ body {
 
 .video {
   height: 1058px;
-  background: url(/assets/img/bg-video.png);
+  background: url(./assets/img/bg-video.png);
   background-size: cover;
   position: relative;
   padding-bottom: 120px;
@@ -203,7 +200,7 @@ body {
 
 .feedback {
   height: 900px;
-  background: url(/assets/img/bg-fedback.png);
+  background: url(./assets/img/bg-fedback.png);
   background-size: cover;
 }
 .feedback-title {
